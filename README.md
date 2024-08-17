@@ -1,14 +1,14 @@
 # HPO solver based on Variational Autoencoders
 
 ## Abstract
-This is part of a coding challenge based on the work of the machine learning group at Nuremberg University at this [*repo*] {https://github.com/machinelearningnuremberg/HPO-B} .
+This is part of a coding challenge based on the work of the machine learning group at Nuremberg University at this [repo](https://github.com/machinelearningnuremberg/HPO-B).
 
 The hyperparameter optimization is finding the hayperparameter configuration that maximize a machine learning pipeline. Hyperparameter Optimization (HPO) is a black-box search problem where the goal is to find the optimal hyperparameter configuration for a machine learning model by evaluating different configurations and measuring their validation accuracy. Unlike model parameter optimization, which uses gradients, HPO relies on black-box evaluations because the gradient of the validation accuracy with respect to hyperparameters is not easily computable. Bayesian optimization is a common approach for HPO, using a performance estimator and an acquisition function to recommend the next configuration with the highest likelihood of improving performance based on past evaluations.
 
 In this repo I implemented a new method of black-box optimization technique for HPO based on Variational Autoencoders as a generative model.
 
-I created a new script in ”methods” folder called [*”generative_hpo.py”*]{https://github.com/youssefnassar95/HPO-B/blob/main/methods/generative_hpo.py} which has the method ”observe_and_suggest”.
-Then I created the script to run which is *[”example_gen.py”*]{https://github.com/youssefnassar95/HPO-B/blob/main/example_gen.py} that uses "HPOBHandler” class and do the evaluation with the ”evaluate continuous” method. This script iterates over the different seeds and datasets, after that it saves the results in a nested dictionary following the same structure, but without adding the x configuration in it, as for ”evaluate continuous” method does not return these configuration but only the accuracy.
+I created a new script in ”methods” folder called [*”generative_hpo.py”*](https://github.com/youssefnassar95/HPO-B/blob/main/methods/generative_hpo.py) which has the method ”observe_and_suggest”.
+Then I created the script to run which is [*”example_gen.py”*](https://github.com/youssefnassar95/HPO-B/blob/main/example_gen.py) that uses "HPOBHandler” class and do the evaluation with the ”evaluate continuous” method. This script iterates over the different seeds and datasets, after that it saves the results in a nested dictionary following the same structure, but without adding the x configuration in it, as for ”evaluate continuous” method does not return these configuration but only the accuracy.
 
 ## Chosen Model Architecture
 The model consists of 3 main parts: 
