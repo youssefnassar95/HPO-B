@@ -1,5 +1,6 @@
 .gitignore
 .vscode/
+.claude
 __pycache__/
 methods/__pycache__/
 saved-surrogates/
@@ -12,3 +13,5 @@ internal-results/
 results.zip
 results/GP_BOTORCH.json
 plots/
+instructions.md
+questions.md

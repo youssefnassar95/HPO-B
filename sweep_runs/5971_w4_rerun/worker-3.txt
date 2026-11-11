@@ -1,0 +1,27 @@
+2026-11-11 21:49:27,762 INFO worker 3 ready (pid 148, seed 0)
+2026-11-11 21:49:27,767 INFO start random/5971/10093/test3
+2026-11-11 21:49:27,904 INFO done random/5971/10093/test3 final=0.991146 suggestions=20 (0.1s)
+2026-11-11 21:49:27,907 INFO start random/5971/3954/test4
+2026-11-11 21:49:27,956 INFO done random/5971/3954/test4 final=0.969361 suggestions=20 (0.0s)
+2026-11-11 21:49:27,958 INFO start random/5971/43/test3
+2026-11-11 21:49:28,009 INFO done random/5971/43/test3 final=0.997537 suggestions=20 (0.0s)
+2026-11-11 21:49:28,010 INFO start random/5971/34536/test3
+2026-11-11 21:49:28,064 INFO done random/5971/34536/test3 final=0.992781 suggestions=20 (0.0s)
+2026-11-11 21:49:28,064 INFO start random/5971/9970/test2
+2026-11-11 21:49:28,113 INFO done random/5971/9970/test2 final=0.780189 suggestions=20 (0.0s)
+2026-11-11 21:49:28,113 INFO start random/5971/6566/test1
+2026-11-11 21:49:28,177 INFO done random/5971/6566/test1 final=0.999042 suggestions=20 (0.1s)
+2026-11-11 21:49:28,177 INFO start gen-vae/5971/10093/test0
+2026-11-11 21:50:08,259 INFO done gen-vae/5971/10093/test0 final=0.987307 suggestions=20 (40.1s)
+2026-11-11 21:50:08,265 INFO start gen-vae/5971/3954/test2
+2026-11-11 21:50:46,496 INFO done gen-vae/5971/3954/test2 final=0.984496 suggestions=20 (38.2s)
+2026-11-11 21:50:46,499 INFO start gen-vae/5971/43/test1
+2026-11-11 21:51:25,034 INFO done gen-vae/5971/43/test1 final=0.924695 suggestions=20 (38.5s)
+2026-11-11 21:51:25,038 INFO start gen-vae/5971/34536/test0
+2026-11-11 21:52:00,158 INFO done gen-vae/5971/34536/test0 final=0.989587 suggestions=20 (35.1s)
+2026-11-11 21:52:00,160 INFO start gen-vae/5971/34536/test4
+2026-11-11 21:52:38,202 INFO done gen-vae/5971/34536/test4 final=0.983117 suggestions=20 (38.0s)
+2026-11-11 21:52:38,204 INFO start gen-vae/5971/9970/test3
+2026-11-11 21:53:18,007 INFO done gen-vae/5971/9970/test3 final=0.849357 suggestions=20 (39.8s)
+2026-11-11 21:53:18,009 INFO start gen-vae/5971/6566/test2
+2026-11-11 21:54:08,437 INFO done gen-vae/5971/6566/test2 final=0.988655 suggestions=20 (50.4s)

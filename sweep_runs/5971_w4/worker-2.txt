@@ -1,0 +1,33 @@
+2026-11-11 21:44:49,812 INFO worker 2 ready (pid 66, seed 0)
+2026-11-11 21:44:49,815 INFO start random/5971/10093/test2
+2026-11-11 21:44:50,024 INFO done random/5971/10093/test2 final=0.991146 suggestions=20 (0.2s)
+2026-11-11 21:44:50,031 INFO start random/5971/3954/test1
+2026-11-11 21:44:50,070 INFO done random/5971/3954/test1 final=0.967388 suggestions=20 (0.0s)
+2026-11-11 21:44:50,071 INFO start random/5971/3954/test4
+2026-11-11 21:44:50,119 INFO done random/5971/3954/test4 final=0.984987 suggestions=20 (0.0s)
+2026-11-11 21:44:50,120 INFO start random/5971/43/test3
+2026-11-11 21:44:50,156 INFO done random/5971/43/test3 final=0.997537 suggestions=20 (0.0s)
+2026-11-11 21:44:50,156 INFO start random/5971/34536/test2
+2026-11-11 21:44:50,193 INFO done random/5971/34536/test2 final=1.000000 suggestions=16 (0.0s)
+2026-11-11 21:44:50,193 INFO start random/5971/9970/test0
+2026-11-11 21:44:50,249 INFO done random/5971/9970/test0 final=0.492630 suggestions=20 (0.1s)
+2026-11-11 21:44:50,249 INFO start random/5971/6566/test0
+2026-11-11 21:44:50,294 INFO done random/5971/6566/test0 final=0.999042 suggestions=20 (0.0s)
+2026-11-11 21:44:50,294 INFO start random/5971/6566/test4
+2026-11-11 21:44:50,332 INFO done random/5971/6566/test4 final=0.993568 suggestions=20 (0.0s)
+2026-11-11 21:44:50,333 INFO start gen-vae/5971/10093/test3
+2026-11-11 21:45:25,199 INFO done gen-vae/5971/10093/test3 final=0.975945 suggestions=20 (34.9s)
+2026-11-11 21:45:25,200 INFO start gen-vae/5971/3954/test1
+2026-11-11 21:45:59,562 INFO done gen-vae/5971/3954/test1 final=0.974800 suggestions=20 (34.4s)
+2026-11-11 21:45:59,565 INFO start gen-vae/5971/43/test0
+2026-11-11 21:46:34,675 INFO done gen-vae/5971/43/test0 final=0.926516 suggestions=20 (35.1s)
+2026-11-11 21:46:34,680 INFO start gen-vae/5971/43/test4
+2026-11-11 21:47:07,447 INFO done gen-vae/5971/43/test4 final=0.990859 suggestions=20 (32.8s)
+2026-11-11 21:47:07,450 INFO start gen-vae/5971/34536/test3
+2026-11-11 21:47:42,627 INFO done gen-vae/5971/34536/test3 final=0.972693 suggestions=20 (35.2s)
+2026-11-11 21:47:42,632 INFO start gen-vae/5971/9970/test1
+2026-11-11 21:48:16,334 INFO done gen-vae/5971/9970/test1 final=0.927545 suggestions=20 (33.7s)
+2026-11-11 21:48:16,336 INFO start gen-vae/5971/6566/test0
+2026-11-11 21:48:50,878 INFO done gen-vae/5971/6566/test0 final=0.971416 suggestions=20 (34.5s)
+2026-11-11 21:48:50,880 INFO start gen-vae/5971/6566/test4
+2026-11-11 21:49:19,503 INFO done gen-vae/5971/6566/test4 final=0.985422 suggestions=20 (28.6s)

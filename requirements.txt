@@ -1,0 +1,8 @@
+# Needed by hpob_handler.py, methods/random_search.py, methods/generative_hpo.py,
+# the sweep runner (sweep/, run_sweep.py) and the tests.
+# CPU builds; install with:
+#   pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
+numpy==2.5.4
+torch==2.15.0+cpu
+xgboost-cpu==3.4.1
+pytest==9.2.0

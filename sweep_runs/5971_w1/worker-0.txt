@@ -1,0 +1,121 @@
+2026-11-11 21:33:06,216 INFO worker 0 ready (pid 25, seed 0)
+2026-11-11 21:33:06,218 INFO start random/5971/10093/test0
+2026-11-11 21:33:06,308 INFO done random/5971/10093/test0 final=0.991146 suggestions=20 (0.1s)
+2026-11-11 21:33:06,311 INFO start random/5971/10093/test1
+2026-11-11 21:33:06,344 INFO done random/5971/10093/test1 final=0.994742 suggestions=20 (0.0s)
+2026-11-11 21:33:06,344 INFO start random/5971/10093/test2
+2026-11-11 21:33:06,383 INFO done random/5971/10093/test2 final=0.997134 suggestions=20 (0.0s)
+2026-11-11 21:33:06,384 INFO start random/5971/10093/test3
+2026-11-11 21:33:06,424 INFO done random/5971/10093/test3 final=0.993121 suggestions=20 (0.0s)
+2026-11-11 21:33:06,424 INFO start random/5971/10093/test4
+2026-11-11 21:33:06,453 INFO done random/5971/10093/test4 final=0.987815 suggestions=20 (0.0s)
+2026-11-11 21:33:06,454 INFO start random/5971/3954/test0
+2026-11-11 21:33:06,491 INFO done random/5971/3954/test0 final=1.000000 suggestions=19 (0.0s)
+2026-11-11 21:33:06,492 INFO start random/5971/3954/test1
+2026-11-11 21:33:06,528 INFO done random/5971/3954/test1 final=0.995974 suggestions=20 (0.0s)
+2026-11-11 21:33:06,528 INFO start random/5971/3954/test2
+2026-11-11 21:33:06,575 INFO done random/5971/3954/test2 final=0.984496 suggestions=20 (0.0s)
+2026-11-11 21:33:06,576 INFO start random/5971/3954/test3
+2026-11-11 21:33:06,604 INFO done random/5971/3954/test3 final=0.993535 suggestions=20 (0.0s)
+2026-11-11 21:33:06,604 INFO start random/5971/3954/test4
+2026-11-11 21:33:06,632 INFO done random/5971/3954/test4 final=0.969361 suggestions=20 (0.0s)
+2026-11-11 21:33:06,632 INFO start random/5971/43/test0
+2026-11-11 21:33:06,673 INFO done random/5971/43/test0 final=0.976502 suggestions=20 (0.0s)
+2026-11-11 21:33:06,674 INFO start random/5971/43/test1
+2026-11-11 21:33:06,716 INFO done random/5971/43/test1 final=0.983054 suggestions=20 (0.0s)
+2026-11-11 21:33:06,716 INFO start random/5971/43/test2
+2026-11-11 21:33:06,747 INFO done random/5971/43/test2 final=0.984960 suggestions=20 (0.0s)
+2026-11-11 21:33:06,747 INFO start random/5971/43/test3
+2026-11-11 21:33:06,778 INFO done random/5971/43/test3 final=0.997537 suggestions=20 (0.0s)
+2026-11-11 21:33:06,778 INFO start random/5971/43/test4
+2026-11-11 21:33:06,815 INFO done random/5971/43/test4 final=0.996749 suggestions=20 (0.0s)
+2026-11-11 21:33:06,815 INFO start random/5971/34536/test0
+2026-11-11 21:33:06,848 INFO done random/5971/34536/test0 final=0.989587 suggestions=20 (0.0s)
+2026-11-11 21:33:06,849 INFO start random/5971/34536/test1
+2026-11-11 21:33:06,960 INFO done random/5971/34536/test1 final=1.000000 suggestions=15 (0.1s)
+2026-11-11 21:33:06,960 INFO start random/5971/34536/test2
+2026-11-11 21:33:06,987 INFO done random/5971/34536/test2 final=1.000000 suggestions=11 (0.0s)
+2026-11-11 21:33:06,987 INFO start random/5971/34536/test3
+2026-11-11 21:33:07,017 INFO done random/5971/34536/test3 final=0.986948 suggestions=20 (0.0s)
+2026-11-11 21:33:07,017 INFO start random/5971/34536/test4
+2026-11-11 21:33:07,047 INFO done random/5971/34536/test4 final=0.993607 suggestions=20 (0.0s)
+2026-11-11 21:33:07,048 INFO start random/5971/9970/test0
+2026-11-11 21:33:07,078 INFO done random/5971/9970/test0 final=0.507498 suggestions=20 (0.0s)
+2026-11-11 21:33:07,078 INFO start random/5971/9970/test1
+2026-11-11 21:33:07,107 INFO done random/5971/9970/test1 final=0.927545 suggestions=20 (0.0s)
+2026-11-11 21:33:07,107 INFO start random/5971/9970/test2
+2026-11-11 21:33:07,137 INFO done random/5971/9970/test2 final=0.780189 suggestions=20 (0.0s)
+2026-11-11 21:33:07,137 INFO start random/5971/9970/test3
+2026-11-11 21:33:07,165 INFO done random/5971/9970/test3 final=0.849357 suggestions=20 (0.0s)
+2026-11-11 21:33:07,165 INFO start random/5971/9970/test4
+2026-11-11 21:33:07,194 INFO done random/5971/9970/test4 final=0.527160 suggestions=20 (0.0s)
+2026-11-11 21:33:07,194 INFO start random/5971/6566/test0
+2026-11-11 21:33:07,223 INFO done random/5971/6566/test0 final=0.993142 suggestions=20 (0.0s)
+2026-11-11 21:33:07,224 INFO start random/5971/6566/test1
+2026-11-11 21:33:07,252 INFO done random/5971/6566/test1 final=0.990718 suggestions=20 (0.0s)
+2026-11-11 21:33:07,252 INFO start random/5971/6566/test2
+2026-11-11 21:33:07,281 INFO done random/5971/6566/test2 final=0.996488 suggestions=20 (0.0s)
+2026-11-11 21:33:07,281 INFO start random/5971/6566/test3
+2026-11-11 21:33:07,310 INFO done random/5971/6566/test3 final=0.997027 suggestions=20 (0.0s)
+2026-11-11 21:33:07,311 INFO start random/5971/6566/test4
+2026-11-11 21:33:07,339 INFO done random/5971/6566/test4 final=0.999352 suggestions=20 (0.0s)
+2026-11-11 21:33:07,339 INFO start gen-vae/5971/10093/test0
+2026-11-11 21:33:31,857 INFO done gen-vae/5971/10093/test0 final=0.987307 suggestions=20 (24.5s)
+2026-11-11 21:33:31,859 INFO start gen-vae/5971/10093/test1
+2026-11-11 21:33:55,186 INFO done gen-vae/5971/10093/test1 final=0.964577 suggestions=20 (23.3s)
+2026-11-11 21:33:55,188 INFO start gen-vae/5971/10093/test2
+2026-11-11 21:34:18,576 INFO done gen-vae/5971/10093/test2 final=0.967133 suggestions=20 (23.4s)
+2026-11-11 21:34:18,578 INFO start gen-vae/5971/10093/test3
+2026-11-11 21:34:39,764 INFO done gen-vae/5971/10093/test3 final=0.975945 suggestions=20 (21.2s)
+2026-11-11 21:34:39,765 INFO start gen-vae/5971/10093/test4
+2026-11-11 21:35:02,318 INFO done gen-vae/5971/10093/test4 final=0.953222 suggestions=20 (22.6s)
+2026-11-11 21:35:02,319 INFO start gen-vae/5971/3954/test0
+2026-11-11 21:35:28,216 INFO done gen-vae/5971/3954/test0 final=0.715150 suggestions=20 (25.9s)
+2026-11-11 21:35:28,221 INFO start gen-vae/5971/3954/test1
+2026-11-11 21:35:52,582 INFO done gen-vae/5971/3954/test1 final=0.967388 suggestions=20 (24.4s)
+2026-11-11 21:35:52,583 INFO start gen-vae/5971/3954/test2
+2026-11-11 21:36:14,872 INFO done gen-vae/5971/3954/test2 final=0.984496 suggestions=20 (22.3s)
+2026-11-11 21:36:14,873 INFO start gen-vae/5971/3954/test3
+2026-11-11 21:36:37,981 INFO done gen-vae/5971/3954/test3 final=0.943917 suggestions=20 (23.1s)
+2026-11-11 21:36:37,982 INFO start gen-vae/5971/3954/test4
+2026-11-11 21:37:01,137 INFO done gen-vae/5971/3954/test4 final=0.969361 suggestions=20 (23.2s)
+2026-11-11 21:37:01,139 INFO start gen-vae/5971/43/test0
+2026-11-11 21:37:25,105 INFO done gen-vae/5971/43/test0 final=0.926516 suggestions=20 (24.0s)
+2026-11-11 21:37:25,107 INFO start gen-vae/5971/43/test1
+2026-11-11 21:37:48,417 INFO done gen-vae/5971/43/test1 final=0.924695 suggestions=20 (23.3s)
+2026-11-11 21:37:48,419 INFO start gen-vae/5971/43/test2
+2026-11-11 21:38:12,147 INFO done gen-vae/5971/43/test2 final=0.960508 suggestions=20 (23.7s)
+2026-11-11 21:38:12,148 INFO start gen-vae/5971/43/test3
+2026-11-11 21:38:34,766 INFO done gen-vae/5971/43/test3 final=0.997537 suggestions=20 (22.6s)
+2026-11-11 21:38:34,767 INFO start gen-vae/5971/43/test4
+2026-11-11 21:38:58,169 INFO done gen-vae/5971/43/test4 final=0.990859 suggestions=20 (23.4s)
+2026-11-11 21:38:58,170 INFO start gen-vae/5971/34536/test0
+2026-11-11 21:39:21,232 INFO done gen-vae/5971/34536/test0 final=0.989587 suggestions=20 (23.1s)
+2026-11-11 21:39:21,234 INFO start gen-vae/5971/34536/test1
+2026-11-11 21:39:43,710 INFO done gen-vae/5971/34536/test1 final=0.968667 suggestions=20 (22.5s)
+2026-11-11 21:39:43,711 INFO start gen-vae/5971/34536/test2
+2026-11-11 21:40:05,646 INFO done gen-vae/5971/34536/test2 final=0.986044 suggestions=20 (21.9s)
+2026-11-11 21:40:05,647 INFO start gen-vae/5971/34536/test3
+2026-11-11 21:40:27,730 INFO done gen-vae/5971/34536/test3 final=0.972693 suggestions=20 (22.1s)
+2026-11-11 21:40:27,731 INFO start gen-vae/5971/34536/test4
+2026-11-11 21:40:50,819 INFO done gen-vae/5971/34536/test4 final=0.983117 suggestions=20 (23.1s)
+2026-11-11 21:40:50,820 INFO start gen-vae/5971/9970/test0
+2026-11-11 21:41:13,807 INFO done gen-vae/5971/9970/test0 final=0.410295 suggestions=20 (23.0s)
+2026-11-11 21:41:13,808 INFO start gen-vae/5971/9970/test1
+2026-11-11 21:41:36,631 INFO done gen-vae/5971/9970/test1 final=0.927545 suggestions=20 (22.8s)
+2026-11-11 21:41:36,633 INFO start gen-vae/5971/9970/test2
+2026-11-11 21:42:00,485 INFO done gen-vae/5971/9970/test2 final=0.780189 suggestions=20 (23.8s)
+2026-11-11 21:42:00,487 INFO start gen-vae/5971/9970/test3
+2026-11-11 21:42:22,426 INFO done gen-vae/5971/9970/test3 final=0.849357 suggestions=20 (21.9s)
+2026-11-11 21:42:22,427 INFO start gen-vae/5971/9970/test4
+2026-11-11 21:42:44,860 INFO done gen-vae/5971/9970/test4 final=0.494498 suggestions=20 (22.4s)
+2026-11-11 21:42:44,861 INFO start gen-vae/5971/6566/test0
+2026-11-11 21:43:07,302 INFO done gen-vae/5971/6566/test0 final=0.971416 suggestions=20 (22.4s)
+2026-11-11 21:43:07,303 INFO start gen-vae/5971/6566/test1
+2026-11-11 21:43:30,682 INFO done gen-vae/5971/6566/test1 final=0.986140 suggestions=20 (23.4s)
+2026-11-11 21:43:30,684 INFO start gen-vae/5971/6566/test2
+2026-11-11 21:43:54,161 INFO done gen-vae/5971/6566/test2 final=0.988655 suggestions=20 (23.5s)
+2026-11-11 21:43:54,163 INFO start gen-vae/5971/6566/test3
+2026-11-11 21:44:18,413 INFO done gen-vae/5971/6566/test3 final=0.986859 suggestions=20 (24.2s)
+2026-11-11 21:44:18,415 INFO start gen-vae/5971/6566/test4
+2026-11-11 21:44:42,064 INFO done gen-vae/5971/6566/test4 final=0.985422 suggestions=20 (23.6s)

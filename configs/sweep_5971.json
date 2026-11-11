@@ -1,0 +1,14 @@
+{
+  "experiment_id": "sweep_5971",
+  "search_space_id": "5971",
+  "dataset_ids": ["10093", "3954", "43", "34536", "9970", "6566"],
+  "seeds": ["test0", "test1", "test2", "test3", "test4"],
+  "methods": {
+    "random": {},
+    "gen-vae": {"n_batches": 30, "batch_size": 16}
+  },
+  "n_trials": 20,
+  "base_seed": 0,
+  "data_dir": "sweep_data/hpob-data/",
+  "surrogates_dir": "sweep_data/surrogates/"
+}

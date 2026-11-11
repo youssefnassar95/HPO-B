@@ -28,3 +28,35 @@ The VAE is consists of encoder and decoder, the encoder is consisted of 2 linear
 has input of 49, hidden dimension of 32 and latent dimension of 64. Then, we have 2
 linear layers to get μ and σ that each is 2 dimensional. The output of the encoder will be
 passed to these 2 layers, then do the re-parameterization to get the z which is then passed to the decoder alongside the I and the output of the Transformer encoder. The decoder is a 3 layer model that has input dimension of 35 which is 32 + 2 + 1 which are, the Transformer output, z dimension and dimension of I respectively, latent dimension of 64, hidden dimension of 32 and output dimension of 16 which will be the reconstructed x which has 16 hyperparameters.
+
+## Running sweeps in parallel
+
+`run_sweep.py` evaluates several HPO methods on the continuous benchmark with a pool of worker processes. A run is one method on one dataset of a search space, started from one of the benchmark initializations (`test0` ... `test4`), and a sweep is every combination listed in a configuration file.
+
+```
+python run_sweep.py --config configs/sweep_5971.json --out sweep_runs/my_run --workers 4
+```
+
+The configuration is a JSON file with these keys:
+
+| Key | Meaning |
+|---|---|
+| `experiment_id` | Name written into the logs and the summary |
+| `search_space_id` | Search space to evaluate on |
+| `dataset_ids` | Datasets of that search space |
+| `seeds` | Benchmark initializations to start from |
+| `methods` | Methods to run, each with its options (`random`, `gen-vae`) |
+| `n_trials` | Number of suggestions per run |
+| `base_seed` | Seed for the random numbers of the sweep |
+| `data_dir`, `surrogates_dir` | Benchmark data and surrogates, relative to the repository root |
+
+`base_seed` fixes the random numbers of the whole sweep. The same configuration is meant to give the same results no matter how many workers are used, and a different `base_seed` gives an independent repetition of the sweep.
+
+The output directory contains:
+
+- `parts/worker-<k>.jsonl`: one line per finished run, written by worker `k`, with the incumbent curve and the suggested configurations.
+- `merged.json`: all runs as `{method: {search_space: {dataset: {seed: incumbents}}}}`, the same layout per method as the files in `results/`.
+- `summary.txt`: statistics of the final incumbent per method and dataset.
+- `coordinator.txt` and `worker-<k>.txt`: logs.
+
+A sweep that stopped before it finished can be continued with `--resume`, which only runs what has no record yet. The code is in `sweep/`, the benchmark slice it uses is described in `sweep_data/README.md`, and the tests run with `python -m pytest tests`.
